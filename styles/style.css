@@ -86,7 +86,6 @@ ol {
 .search-form__submit-button {
   align-self: flex-end;
   min-inline-size: 194px;
-  /*min-block-size: 34px;*/
 }
 
 .content {
@@ -127,7 +126,7 @@ ol {
   min-inline-size: 225px;
   min-block-size: 27px;
   background-color: transparent;
-  border: none; /*1px solid currentColor;*/
+  border: none;
   font-family: inherit;
   color: #fff;
   font-size: inherit;
@@ -164,7 +163,6 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
-  /*outline-offset: 2px;*/
 }
 
 .content__list {
@@ -261,13 +259,10 @@ img {
   color: #545050;
 }
 
-.search-form__label-text {
-  margin-inline-start: 5px;
-}
-
 .search-form__checkbox-list {
   display: flex;
-  gap: 15px;
+  width: 212px;
+  justify-content: space-between;
 }
 .search-form__pseudo-checkbox {
   display: flex;
