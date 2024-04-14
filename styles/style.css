@@ -51,7 +51,6 @@ ol {
 
 .body {
   display: block;
-  position: relative;
 }
 
 .button {
@@ -96,10 +95,9 @@ ol {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  margin-inline: auto;
+  margin-block-start: 50vh;
+  transform: translateY(-50%);
 }
 
 .title {
@@ -306,7 +304,6 @@ img {
 
 input [type='checkbox']:checked + span::before {
   content: ' ';
-  position: absolute;
   inset-block-start: 1px;
   inset-inline-start: 1px;
   inline-size: 15px;
