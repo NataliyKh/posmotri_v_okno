@@ -92,6 +92,8 @@ ol {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  width: 1140px;
+  height: 534px;
 }
 
 .title {
@@ -174,6 +176,7 @@ ol {
 
 .content__details {
   margin-left: 30px;
+  width: 399px;
 }
 
 .result__video {
@@ -189,7 +192,6 @@ ol {
   height: 386px;
   width: 711px;
   margin-bottom: 16px;
-  
 }
 
 .content__list-item:not(:last-of-type) {
